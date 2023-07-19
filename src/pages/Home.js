@@ -2,7 +2,7 @@ import React from "react";
 import Menu from "../components/Menu";
 import dadosIniciais from "../data/dados_iniciais.json";
 import BannerMain from "../components/BannerMain/index";
-import Carousel from "../components/Carousel/Carousel.js";
+import Carrousel from "../components/Carrousel/Carrousel.js";
 import Footer from "../components/Footer/Footer.js";
 
 function Home() {
@@ -18,15 +18,15 @@ function Home() {
         }
       />
 
-      <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
+      <Carrousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
 
-      <Carousel category={dadosIniciais.categorias[1]} />
+      <Carrousel category={dadosIniciais.categorias[1]} />
 
-      <Carousel category={dadosIniciais.categorias[2]} />
+      <Carrousel category={dadosIniciais.categorias[2]} />
 
-      <Carousel category={dadosIniciais.categorias[3]} />
+      <Carrousel category={dadosIniciais.categorias[3]} />
 
-      <Carousel category={dadosIniciais.categorias[4]} />
+      <Carrousel category={dadosIniciais.categorias[4]} />
 
       <Footer />
     </div>
