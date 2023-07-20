@@ -140,3 +140,9 @@
     color: var(--white);
     transform: translateY(-20px);
 }
+
+ @media (max-width: 800px) {
+    .wrong-letters-container {
+           right: 50px;
+        }
+ }
